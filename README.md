@@ -1,5 +1,5 @@
 # elastic_daily_index
-elastic_daily_index will help you rollover the index daily and delete the old index according your configurations. the default value is keeping index newer than 14 days. you can change the value of self.age according your requirement.
+We often need to delete or archive the old index when handle the periodic data such as logs. elastic_daily_index will help you rollover the index daily and delete the old index according your configurations. the default value is keeping index newer than 14 days. you can change the value of self.age according your requirement.
 
 ## quick start
 1. clone the local disk, we assume the default base directory is /opt
